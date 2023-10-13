@@ -1,0 +1,29 @@
+<!--Crie uma página chamada “formulário.html”. Esta página deve conter um formulário que empregue o método de envio “get” para o edereço http://www.jmenzen.com.br/teste.aspx. Os campos deste formulário devem ser os campos da tabela criada na atividade anterior. Cada um dos campos deve ser do tipo equivalente à característica do campo. Este formulário deve ser estruturado com os campos do formulário, um abaixo do outro, devendo ser alinhados com o emprego da tabela. Para finalizar, o formulário deve possuir um botão para enviar o formulário e o outro botão para limpar as informações do mesmo.-->
+
+
+<DOCTYPE html>
+    <html>
+        <head>
+    
+        </head>
+        <body>
+            <form name="cadastros" method="get" action="http://www.jmenzen.com.br/teste.aspx"> 
+                <input type="text" value="Nome"><br>
+                <input type="text" value="Idade"><br>
+                <input type="date" value="Data de nascimento"><br>
+                <input type="radio" name="sexo" value="m">Masculino</input><br>
+                <input type="radio" name="sexo" value="f">Feminino</input><br>
+                <input type="text" value="Rua"><br>
+                <input type="text" value="Bairro"><br>
+                <input type="text" value="Bairro"><br>
+                <input type="text" value="CEP"><br>
+                <select name="uf">
+                    <option>RS</option>
+                    <option>PR</option>
+                    <option>SC</option>
+                </select><br>
+                <input type="submit" value="enviar"></input>
+                <input type="reset" value="limpar cadastro"></input>
+            </form>
+        </body>
+    </html>

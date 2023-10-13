@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina de Programaçao Web</title>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    </head>
+    <body>
+        <form name="cadastro" method="GET" action="http://www.ftec.com.br/processa.aspx"> 
+            <table>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" value="usuario"></input></td>
+                </tr>
+                <tr>
+                    <td>Senha:</td>
+                    <td><input type="password"></input></td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                        <td>
+                            <input type="radio" name= "sexo" value="m">Masculino</input>
+                            <input type="radio" name="sexo" value="f">Feminino</input>
+                        </td>
+                </tr>
+                <tr>
+                    <td>Contato:</td>
+                    <td>
+                        <input type="checkbox" value="email">Contato por email</input>
+                        <input type="checkbox" value="telefone">Contato por telefone</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>UF:</td>
+                    <td>
+                        <select name="UF">
+                            <option>SP</option>
+                            <option>SC</option>
+                            <option>RJ</option>
+                            <option>RS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Observações:</td>
+                    <td><textarea name="observações"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="Enviar"></input>
+            <input type="reset" value="Limpar"></input>
+        </form>
+    </body>
+</html>

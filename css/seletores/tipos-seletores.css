@@ -1,0 +1,90 @@
+/* seletor de tipo */
+
+p {
+    color: red;
+}
+
+/* seletor descendente */
+
+p span {
+    color: blue;
+}
+
+div p a span {
+    font-size: 14px;
+}
+
+/* seletor descendente, forma preferêncial */
+
+    /* No HTML: */
+    <p class="texto">Esse texto tem uma palavra em <span>azul</span></p>
+
+    /* No CSS: */
+    texto span {
+        color:blue;
+    }
+
+
+/* seletor de ID */
+
+    /* No HTML: */
+    <p id="texto">Meu texto com ID</p>
+
+    /* No CSS: */
+    #texto {
+        font-weight: bold;
+    }
+
+/* seletor de classe */
+
+     /* No HTML: */
+     <div class="content"></div>
+
+     /* No CSS: */
+    .content{
+        width: 320px;
+    }
+ 
+/*seletor universal*/
+* {
+    margin: 0;
+}
+
+
+/*pseudo classe*/
+
+    /*cor do link quando passar por cima com o mouse*/
+
+        a:hover {
+            color: blue
+        }
+
+    /*estilizando apenas links não visitados*/
+            
+        a:link {
+            color: blue
+        }
+    
+    /*estilizando apenas links visitados*/
+
+        a:visited {
+            color: blue
+        }
+
+    /*quando o link for selecionado com o tab (exemplo de alguem que não consegue utilizar o mouse)*/
+
+        a:focus {
+            color: blue
+        }
+
+
+    /*cor quando clicado ou apertado enter no link*/
+
+        a:active {
+            color: blue
+        }
+
+        
+
+
+
